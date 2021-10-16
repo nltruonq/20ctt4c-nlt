@@ -157,4 +157,5 @@ td>a {
 
 .NA {
     color: red !important;
+    cursor: default;
 }
