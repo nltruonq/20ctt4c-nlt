@@ -96,7 +96,7 @@
 
 #home .content {
     position: absolute;
-    height: 60px;
+    height: 80%;
     width: 100%;
     margin-top: 100px;
 }
@@ -128,8 +128,13 @@
     width: 70%;
     margin-top: 50px;
     text-align: center;
-    margin-left: 200px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.block-table {
+    min-height: 400px;
+    height: 500px;
 }
 
 table, th, td {
@@ -138,7 +143,7 @@ table, th, td {
 }
 table {
     border-collapse: collapse;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 tr {
@@ -158,4 +163,28 @@ td>a {
 .NA {
     color: red !important;
     cursor: default;
+}
+
+#footer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #000000;
+    height: 20vh;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#footer p {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#footer a, i {
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
 }
